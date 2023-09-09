@@ -77,3 +77,18 @@ sudo apt-get install certbot
 sudo apt-get install python3-certbot-nginx
 sudo certbot --nginx
 sudo certbot renew --dry-run
+
+#instalacion modulos librerias de facturacion
+pip install openpyxl
+pip install cchardet
+pip install pdf417gen
+pip3 install xmltodict dicttoxml cchardet cryptography pyOpenSSL pycrypto
+pip3 install M2Crypto
+pip3 install jsbeautifier
+pip3 install woocommerce
+pip3 install signxml
+sudo apt-get install libssl-dev swig python3-dev gcc
+pip3 install SOAPpy
+pip3 install suds-py3
+pip3 install xlwt
+pip3 install zeep
